@@ -1,0 +1,12 @@
+Rajeesh 
+
+21-02-2021
+
+ALTER TABLE `patient_master_1` ADD `created_by` INT(11) NULL DEFAULT '0' AFTER `is_imported`, ADD `updated_by` INT(11) NULL DEFAULT '0' AFTER `created_by`; 
+
+----------------------------------
+
+Rajeesh 
+24-02-2021
+
+UPDATE `roles` SET `organization_id`=1 WHERE `organization_id`=0;
